@@ -1,0 +1,22 @@
+{
+  "name": "lambert-orbit",
+  "version": "1.0.0",
+  "description": "A javascript Lambert problem solver",
+  "main": "./src/solver.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Unstoppable Games, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "cephes": "^1.2.0",
+    "mathjs": "^10.0.2"
+  },
+  "devDependencies": {
+    "almost-equal": "^1.1.0",
+    "chai": "^4.3.4",
+    "chai-deep-closeto": "^0.1.1",
+    "chai-withintoleranceof": "^1.0.1",
+    "mocha": "^9.1.3"
+  }
+}
